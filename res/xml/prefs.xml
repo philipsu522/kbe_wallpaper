@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:key="touch"
+        android:title="Enable Touch"
+        android:defaultValue="false"></CheckBoxPreference>
+    <EditTextPreference android:key="timeBetweenSlides"
+        android:title="Time Between Slides"
+        android:defaultValue="5"></EditTextPreference>
+    <Preference android:title="Choose Album"
+        android:key="button"
+        android:summary="Select which album to use"/>
+</PreferenceScreen>
